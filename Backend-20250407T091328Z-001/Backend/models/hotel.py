@@ -3,7 +3,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from bson import ObjectId  # Import ObjectId for MongoDB IDs
 
 # MongoDB connection
-MONGO_URI = "MONGODB_URI"  # Replace with your MongoDB URI
+MONGO_URI = "MONGODB_URI_PLEASE"  # Replace with your MongoDB URI
 client = MongoClient(MONGO_URI)
 db = client.get_database("hotel_db")  # Database name
 users_collection = db.get_collection("users")  # Collection for users
